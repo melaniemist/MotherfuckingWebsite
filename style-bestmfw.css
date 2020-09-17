@@ -1,0 +1,102 @@
+body {
+  max-width: 850px;
+  margin: 50px auto;
+  font-family: Open Sans,Arial;
+  line-height: 1.4;
+  text-align: justify;
+  font-size: 16px;
+  color: #454545;
+}
+
+.mot-bordeaux {
+  color: brown;
+}
+
+.sb{
+  color : blue;
+}
+
+.sv{
+  color: purple;
+}
+
+.mot-rouge {
+  color: red;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+a {
+  color: orange;
+  text-decoration: underline;
+  transition: .3s ease-out;
+  /* transition permet d'avoir un effet plus "smooth" pour l'effet de survol */
+}
+
+/* effet de survol de lien :hover  */
+a:hover {
+  color: purple;
+}
+
+.logo {
+  height: 20px;
+}
+
+.petit {
+  font-size: 12px;
+  font-family: monospace;
+}
+
+.carre::before {
+  content: "";
+  background-color: #454545;
+  width: 15px;
+  height: 15px;
+  margin-left: 3px;
+  margin-right: 3px;
+  display: inline-block;
+}
+
+.carre-2::before {
+  content: "";
+  background-color: #444;
+  width: 15px;
+  height: 15px;
+  margin-left: 3px;
+  margin-right: 3px;
+  display: inline-block;
+}
+
+.deux-cote {
+  display: flex;
+  /** display flex permet de mettre deux éléments cote a cote **/
+}
+
+.deux-cote figure {
+  margin: 0;
+}
+
+.deux-cote figure img {
+  margin-right: 15px;
+  margin-bottom: 15px;
+  width: 350px;
+}
+
+.deux-cote figure figcaption {
+  font-size: 10px;
+}
+
+.a-ligne {
+  display: flex;
+  width: 100%;
+  /** mettre le a sur toute la largeur pour centrer l'image ensuite **/
+}
+
+.a-ligne .logo {
+  margin: auto;
+  height: 40px;
+}
+
+.visited {
+  color: purple;
+}
